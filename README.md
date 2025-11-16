@@ -1,3 +1,5 @@
-# Bayesian nonparametric (BNP) regression for insurance claims data
+# Bayesian Nonparametric (BNP) Regression for Insurance Claims Data
 
-These are the R codes for the Dirichlet process mixture model (DPMM) and the Pitman-Yor process mixture model (PYMM) applied to the insurance claims data in my preprint *Modeling Insurance Claims using Bayesian Nonparametric Regression* available on [arXiv](https://arxiv.org/abs/2311.11487). Each code consists of the model's MCMC sampling algorithm, posterior predictive distribution computation, and clustering performance. 
+This repository contains R code for the Dirichlet process mixture model (DPMM) and the Pitman–Yor process mixture model (PYMM) applied to the insurance claims data in our manuscript *"Modeling Insurance Claims Using Bayesian Nonparametric Regression"* by Mostafa Shams and Kaushik Ghosh (available on [arXiv](https://arxiv.org/abs/2311.11487)).
+
+Each script includes the model’s MCMC sampling algorithm, computation of the posterior predictive distribution, and evaluation of clustering performance.

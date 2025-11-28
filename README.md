@@ -18,16 +18,19 @@ install.packages(
 	repos = "https://dutangc.perso.math.cnrs.fr/RRepository/pub/", 
 	type="source"
 )
+
 library(CASdatasets) 
 data("freMTPLfreq")
 data("freMTPLsev")
 ```
 
 Further installation instructions and documentation for CASdatasets are provided at its official repository:  https://dutangc.github.io/CASdatasets/
- 
+
+
 Note. The data are not redistributed in this repository; users should obtain them directly via the CASdatasets package. 
 
 Reference: 
+
 Christophe Dutang and Arthur Charpentier (2025). CASdatasets: Insurance datasets, R package version 1.2-1, DOI: 10.57745/P0KHAG.
 
 

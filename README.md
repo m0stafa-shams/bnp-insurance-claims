@@ -13,18 +13,23 @@ Each script includes:
 
 **Note**. The data are not redistributed in this repository; users should obtain them directly via the CASdatasets package. 
 
-The French motor insurance claims data used in this study are third-party data originating from the book Computational Actuarial Science with R (edited by Arthur Charpentier) and are distributed through the R package CASdatasets. These datasets are publicly and freely available via R by installing the CASdatasets package and loading the datasets `freMTPLfreq` and `freMTPLsev` using the following commands:
+The French and Belgian motor insurance claims data used in this study are third-party data originating from the book Computational Actuarial Science with R (edited by Arthur Charpentier) and are distributed through the R package CASdatasets. These datasets are publicly and freely available via R by installing the CASdatasets package and loading the datasets `freMTPLfreq`, `freMTPLsev`, and `beMTPL97` using the following commands:
 
 ```r
+
 install.packages(
 	"CASdatasets", 
 	repos = "https://dutangc.perso.math.cnrs.fr/RRepository/pub/", 
 	type="source"
 )
 
-library(CASdatasets) 
+library(CASdatasets)
+
 data("freMTPLfreq")
 data("freMTPLsev")
+
+data("beMTPL97")
+
 ```
 
 
